@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Tags</title>
+    <style>
+        .responsive-image {
+            max-width:100%;
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
     <!-- src: source alt: alternate text | Self-closing tag -->
@@ -18,5 +25,8 @@
     <!-- Style -->
     <img src="nature.jpeg" alt="Could not find the image" 
     style="width:200px; height:100px; border-radius:10%; border:2px solid #cd2323;"> 
+
+    <!-- Responsive image via CSS -->
+    <img src="nature.jpeg" alt="Could not find the image" class="responsive-image"> 
 </body>
 </html>
