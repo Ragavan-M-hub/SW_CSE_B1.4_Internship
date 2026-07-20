@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Overlow and Wrapping</title>
+    <style>
+        p{
+            white-space: nowrap;
+        }
+
+        .container{
+            width: 80px;
+            height: 20px;
+            background-color: skyblue;
+        }
+
+        .container-visible{
+            overflow: visible;
+        }
+
+        .container-hidden{
+            overflow: hidden;
+        }
+
+        .container-scroll{
+            overflow: scroll;
+        }
+
+        .container-auto{
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <p class="container container-auto">This is a paragraph</p>
+    <p class="container container-hidden">This is a paragraph</p>
+    <p class="container container-visible">This is a paragraph</p>
+    <p class="container container-scroll">This is a paragraph</p>
+</body>
+</html>
