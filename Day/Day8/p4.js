@@ -29,3 +29,18 @@ if(true){
 }
 //const is block scoped
 console.log(pi) //ERROR
+
+
+//var function scoped
+function test(){
+    if(true){
+        var a = 10
+        let b = 20
+        const c = 30
+    }
+    console.log(a)
+    console.log(b)  //ERROR
+    console.log(c) //ERROR
+}
+// console.log(a) ERROR
+test()
