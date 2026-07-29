@@ -3,6 +3,7 @@ import { LeftArrow, RightArrow } from './components/FunctionalContent2';
 import ProfileList from './components/Props';
 import InfoBoxDemo from './components/Props2';
 import './App.css'
+import Counter from './components/State';
 
 const name = "hi";
 const isLoggedIn = true;
@@ -33,6 +34,7 @@ function App() {
       <RightArrow />
       <ProfileList />
       <InfoBoxDemo />
+      <Counter />
     </>
   )
 }
