@@ -1,6 +1,6 @@
 //default export
 
-const button = () => {
+const Button = () => {
     return <button>Click me</button>
 }
 
