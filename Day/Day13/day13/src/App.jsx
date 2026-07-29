@@ -6,6 +6,7 @@ import './App.css'
 import Counter from './components/State';
 import ToggleText from './components/State2';
 import NameInput from './components/State3';
+import ClickDemo from './components/EventHandling';
 
 const name = "hi";
 const isLoggedIn = true;
@@ -39,6 +40,7 @@ function App() {
       <Counter />
       <ToggleText />
       <NameInput />
+      <ClickDemo />
     </>
   )
 }
