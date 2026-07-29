@@ -5,6 +5,7 @@ import InfoBoxDemo from './components/Props2';
 import './App.css'
 import Counter from './components/State';
 import ToggleText from './components/State2';
+import NameInput from './components/State3';
 
 const name = "hi";
 const isLoggedIn = true;
@@ -37,6 +38,7 @@ function App() {
       <InfoBoxDemo />
       <Counter />
       <ToggleText />
+      <NameInput />
     </>
   )
 }
