@@ -7,6 +7,7 @@ import Counter from './components/State';
 import ToggleText from './components/State2';
 import NameInput from './components/State3';
 import ClickDemo from './components/EventHandling';
+import FormDemo from './components/EventHandling2';
 
 const name = "hi";
 const isLoggedIn = true;
@@ -41,6 +42,7 @@ function App() {
       <ToggleText />
       <NameInput />
       <ClickDemo />
+      <FormDemo />
     </>
   )
 }
