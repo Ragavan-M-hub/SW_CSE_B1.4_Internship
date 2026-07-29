@@ -1,3 +1,6 @@
+const name = "hi";
+const isLoggedIn = true;
+
 function App() {
   return (
     // React Fragments
