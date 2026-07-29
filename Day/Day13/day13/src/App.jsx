@@ -1,3 +1,5 @@
+import Button from './components/FunctionalContent'
+
 const name = "hi";
 const isLoggedIn = true;
 
@@ -21,6 +23,8 @@ function App() {
 
       {/* JSX Rule 5: use expressions, not statements */}
       <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
+      
+      <Button />
     </>
   )
 }
