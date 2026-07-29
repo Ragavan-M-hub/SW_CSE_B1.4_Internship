@@ -1,4 +1,5 @@
 import Button from './components/FunctionalContent'
+import { LeftArrow, RightArrow } from './components/FunctionalContent2';
 
 const name = "hi";
 const isLoggedIn = true;
@@ -25,6 +26,8 @@ function App() {
       <p>{isLoggedIn ? "Welcome back" : "Please Login"}</p>
       
       <Button />
+      <LeftArrow />
+      <RightArrow />
     </>
   )
 }
