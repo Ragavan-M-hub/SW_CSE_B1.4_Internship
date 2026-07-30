@@ -7,6 +7,7 @@ import UserListHook from './components/Hook2'
 import ThemeProviderDemo from './components/Hook3'
 import SimpleNameForm from './components/Form1'
 import SignupForm from './components/Form2'
+import ValidatedForm from './components/Form3'
 
 function App() {
 
@@ -18,8 +19,9 @@ function App() {
       <CounterHook />
       <UserListHook />
       <ThemeProviderDemo />
-      <SimpleNameForm /> */}
-      <SignupForm />
+      <SimpleNameForm />
+      <SignupForm /> */}
+      <ValidatedForm />
     </>
   )
 }
