@@ -8,6 +8,7 @@ import ThemeProviderDemo from './components/Hook3'
 import SimpleNameForm from './components/Form1'
 import SignupForm from './components/Form2'
 import ValidatedForm from './components/Form3'
+import GitHubUsersList from './components/FetchingData'
 
 function App() {
 
@@ -20,8 +21,9 @@ function App() {
       <UserListHook />
       <ThemeProviderDemo />
       <SimpleNameForm />
-      <SignupForm /> */}
-      <ValidatedForm />
+      <SignupForm />
+      <ValidatedForm /> */}
+      <GitHubUsersList />
     </>
   )
 }
