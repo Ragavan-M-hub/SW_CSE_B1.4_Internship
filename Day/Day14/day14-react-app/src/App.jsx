@@ -9,6 +9,7 @@ import SimpleNameForm from './components/Form1'
 import SignupForm from './components/Form2'
 import ValidatedForm from './components/Form3'
 import GitHubUsersList from './components/FetchingData'
+import GitHubProfile from './components/FetchingData2'
 
 function App() {
 
@@ -22,8 +23,9 @@ function App() {
       <ThemeProviderDemo />
       <SimpleNameForm />
       <SignupForm />
-      <ValidatedForm /> */}
-      <GitHubUsersList />
+      <ValidatedForm />
+      <GitHubUsersList /> */}
+      <GitHubProfile />
     </>
   )
 }
